@@ -15,12 +15,12 @@ public class InsertionSortReverse {
             int newElement = arr[firstUnsortedIndex];
             int i;
 
-            // Compare the new element to elements in the sorted section of the array
+    
             for (i = firstUnsortedIndex; i > 0 && arr[i - 1] < newElement; i--) {
                 arr[i] = arr[i - 1];
             }
 
-            // Insert the newElement into its appropriate position
+         
             arr[i] = newElement;
         }
     }
