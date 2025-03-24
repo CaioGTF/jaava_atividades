@@ -1,4 +1,4 @@
-public class Main {
+Pesssoapublic class Main {
     public static void main(String[] args) {
          /*
        Criando os objetos

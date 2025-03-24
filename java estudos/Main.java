@@ -57,8 +57,31 @@ public class Main {
 
 
         for(int i = 0; i < nomes.size(); i++){
-            System.out.println(nomes.get(i));
+            System.out.println( "loop for" + '\t' +nomes.get(i));
         }
+        for (String nome : nomes){
+          System.out.println(nome);
+        }
+        int contador = 0;
+        while(contador < 10){
+          System.out.println("Estou no while");
+          contador++;
+        }
+
+        /*Castings: transformação o valor de uma variável de um tipo para outro */
+        /* vai transformar o número do tipo double em int tirando os números após a vírgula */
+        double resultado = 0.0;
+        int resultadoInt = (int) resultado;
+
+
+        int meuInt = 10;
+        double meuDouble = meuInt;
+
+
+        String meuString = "10";
+        int meuInt2 = integer.parseInt(meuString);
+
+        String minhaString = String.valueOf(meuInt2); 
       }
  
     
